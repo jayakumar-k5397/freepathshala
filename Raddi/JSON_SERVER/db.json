@@ -1,0 +1,120 @@
+{
+  "users": [
+    {
+      "id": "5a2a",
+      "name": "jay",
+      "password": "123"
+    },
+    {
+      "id": "aa24",
+      "name": "admin",
+      "password": "12346"
+    }
+  ],
+  "pickupSchedules": [
+    {
+      "id": "e95a",
+      "name": "Jaya kumar K v",
+      "phone": "123",
+      "address": "1-39, aretamma colony",
+      "location": "12.7434752, 78.348288",
+      "message": "Hello",
+      "gpsAddress": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<reversegeocode timestamp=\"Sat, 12 Oct 2024 15:57:17 +00:00\" attribution=\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\" querystring=\"lat=12.7434752&amp;lon=78.348288&amp;format=xml\"><result place_id=\"382392615\" osm_type=\"way\" osm_id=\"1253548161\" lat=\"12.7430239\" lon=\"78.3480555\" boundingbox=\"12.7381007,12.7435677,78.3469092,78.3595935\" place_rank=\"26\" address_rank=\"26\">Gullapalli, కుప్పం, చిత్తూరు, Andhra Pradesh, 517425, India</result><addressparts><village>Gullapalli</village><county>కుప్పం</county><state_district>చిత్తూరు</state_district><state>Andhra Pradesh</state><ISO3166-2-lvl4>IN-AP</ISO3166-2-lvl4><postcode>517425</postcode><country>India</country><country_code>in</country_code></addressparts></reversegeocode>",
+      "status": "pickup scheduled"
+    },
+    {
+      "id": "0e57",
+      "name": "Jaya kumar K v",
+      "phone": "123",
+      "address": "1-39, aretamma colony",
+      "location": "12.7434752, 78.348288",
+      "message": "Hello",
+      "gpsAddress": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<reversegeocode timestamp=\"Sat, 12 Oct 2024 15:58:29 +00:00\" attribution=\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\" querystring=\"lat=12.7434752&amp;lon=78.348288&amp;format=xml\"><result place_id=\"382392615\" osm_type=\"way\" osm_id=\"1253548161\" lat=\"12.7430239\" lon=\"78.3480555\" boundingbox=\"12.7381007,12.7435677,78.3469092,78.3595935\" place_rank=\"26\" address_rank=\"26\">Gullapalli, కుప్పం, చిత్తూరు, Andhra Pradesh, 517425, India</result><addressparts><village>Gullapalli</village><county>కుప్పం</county><state_district>చిత్తూరు</state_district><state>Andhra Pradesh</state><ISO3166-2-lvl4>IN-AP</ISO3166-2-lvl4><postcode>517425</postcode><country>India</country><country_code>in</country_code></addressparts></reversegeocode>",
+      "pickupDate": "2024-10-12T21:27",
+      "status": "pickup scheduled"
+    },
+    {
+      "id": "15cb",
+      "name": "Jaya kumar K v",
+      "phone": "09963080921",
+      "address": "1-39, aretamma colony",
+      "location": "12.7434752, 78.348288",
+      "message": "Helloasfasfaf",
+      "gpsAddress": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<reversegeocode timestamp=\"Sat, 12 Oct 2024 17:50:37 +00:00\" attribution=\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\" querystring=\"lat=12.7434752&amp;lon=78.348288&amp;format=xml\"><result place_id=\"382392615\" osm_type=\"way\" osm_id=\"1253548161\" lat=\"12.7430239\" lon=\"78.3480555\" boundingbox=\"12.7381007,12.7435677,78.3469092,78.3595935\" place_rank=\"26\" address_rank=\"26\">Gullapalli, కుప్పం, చిత్తూరు, Andhra Pradesh, 517425, India</result><addressparts><village>Gullapalli</village><county>కుప్పం</county><state_district>చిత్తూరు</state_district><state>Andhra Pradesh</state><ISO3166-2-lvl4>IN-AP</ISO3166-2-lvl4><postcode>517425</postcode><country>India</country><country_code>in</country_code></addressparts></reversegeocode>",
+      "pickupDate": "2024-10-23T23:20",
+      "status": "pickup scheduled"
+    },
+    {
+      "id": "f0e8",
+      "name": "Jaya kumar K v",
+      "phone": "09963080921",
+      "mail": "Jayakv5397@gmail.com",
+      "address": "123414",
+      "location": "12.7434752, 78.348288",
+      "message": "ssfaSF",
+      "gpsAddress": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<reversegeocode timestamp=\"Sat, 12 Oct 2024 18:35:16 +00:00\" attribution=\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\" querystring=\"lat=12.7434752&amp;lon=78.348288&amp;format=xml\"><result place_id=\"382933527\" osm_type=\"way\" osm_id=\"1253548161\" lat=\"12.7430239\" lon=\"78.3480555\" boundingbox=\"12.7381007,12.7435677,78.3469092,78.3595935\" place_rank=\"26\" address_rank=\"26\">Gullapalli, కుప్పం, చిత్తూరు, Andhra Pradesh, 517425, India</result><addressparts><village>Gullapalli</village><county>కుప్పం</county><state_district>చిత్తూరు</state_district><state>Andhra Pradesh</state><ISO3166-2-lvl4>IN-AP</ISO3166-2-lvl4><postcode>517425</postcode><country>India</country><country_code>in</country_code></addressparts></reversegeocode>",
+      "pickupDate": "2024-10-30T00:05",
+      "status": "pickup scheduled"
+    },
+    {
+      "id": "d347",
+      "name": "Jaya kumar K v",
+      "phone": "09963080921",
+      "mail": "Jayakv5397@gmail.com",
+      "address": "1-39, aretamma colony",
+      "location": "12.7434752, 78.348288",
+      "message": "ssfaSF",
+      "gpsAddress": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<reversegeocode timestamp=\"Sat, 12 Oct 2024 18:37:17 +00:00\" attribution=\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\" querystring=\"lat=12.7434752&amp;lon=78.348288&amp;format=xml\"><result place_id=\"382392615\" osm_type=\"way\" osm_id=\"1253548161\" lat=\"12.7430239\" lon=\"78.3480555\" boundingbox=\"12.7381007,12.7435677,78.3469092,78.3595935\" place_rank=\"26\" address_rank=\"26\">Gullapalli, కుప్పం, చిత్తూరు, Andhra Pradesh, 517425, India</result><addressparts><village>Gullapalli</village><county>కుప్పం</county><state_district>చిత్తూరు</state_district><state>Andhra Pradesh</state><ISO3166-2-lvl4>IN-AP</ISO3166-2-lvl4><postcode>517425</postcode><country>India</country><country_code>in</country_code></addressparts></reversegeocode>",
+      "pickupDate": "2024-10-17T00:07",
+      "status": "pickup scheduled"
+    },
+    {
+      "id": "5c65",
+      "name": "safda",
+      "phone": "asfraf",
+      "mail": "jayakv5397@gmail.com",
+      "address": "",
+      "location": "12.7434752, 78.348288",
+      "message": "Helloasfasfaf",
+      "gpsAddress": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<reversegeocode timestamp=\"Sat, 12 Oct 2024 18:40:32 +00:00\" attribution=\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\" querystring=\"lat=12.7434752&amp;lon=78.348288&amp;format=xml\"><result place_id=\"382392615\" osm_type=\"way\" osm_id=\"1253548161\" lat=\"12.7430239\" lon=\"78.3480555\" boundingbox=\"12.7381007,12.7435677,78.3469092,78.3595935\" place_rank=\"26\" address_rank=\"26\">Gullapalli, కుప్పం, చిత్తూరు, Andhra Pradesh, 517425, India</result><addressparts><village>Gullapalli</village><county>కుప్పం</county><state_district>చిత్తూరు</state_district><state>Andhra Pradesh</state><ISO3166-2-lvl4>IN-AP</ISO3166-2-lvl4><postcode>517425</postcode><country>India</country><country_code>in</country_code></addressparts></reversegeocode>",
+      "pickupDate": "2024-10-15T00:10",
+      "status": "pickup scheduled"
+    },
+    {
+      "id": "cf05",
+      "name": "safda",
+      "phone": "asfraf",
+      "mail": "jayakv5397@gmail.com",
+      "address": "",
+      "location": "12.7434752, 78.348288",
+      "message": "Helloasfasfaf",
+      "gpsAddress": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<reversegeocode timestamp=\"Sat, 12 Oct 2024 18:43:09 +00:00\" attribution=\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\" querystring=\"lat=12.7434752&amp;lon=78.348288&amp;format=xml\"><result place_id=\"382842371\" osm_type=\"way\" osm_id=\"1253548161\" lat=\"12.7430239\" lon=\"78.3480555\" boundingbox=\"12.7381007,12.7435677,78.3469092,78.3595935\" place_rank=\"26\" address_rank=\"26\">Gullapalli, కుప్పం, చిత్తూరు, Andhra Pradesh, 517425, India</result><addressparts><village>Gullapalli</village><county>కుప్పం</county><state_district>చిత్తూరు</state_district><state>Andhra Pradesh</state><ISO3166-2-lvl4>IN-AP</ISO3166-2-lvl4><postcode>517425</postcode><country>India</country><country_code>in</country_code></addressparts></reversegeocode>",
+      "pickupDate": "2024-10-15T00:10",
+      "status": "pickup scheduled"
+    },
+    {
+      "id": "d1d9",
+      "name": "Roshan",
+      "phone": "09963080921",
+      "mail": "Jayakv5397@gmail.com",
+      "address": "1-39, aretamma colony",
+      "location": "",
+      "message": "Hello",
+      "gpsAddress": "",
+      "pickupDate": "2024-10-13T01:07",
+      "status": "pickup scheduled"
+    },
+    {
+      "id": "7c45",
+      "name": "Ashish",
+      "phone": "9922",
+      "mail": "A@gm.com",
+      "address": "7733,eje",
+      "location": "",
+      "message": "Iron waste approx-5kg",
+      "gpsAddress": "",
+      "pickupDate": "2024-10-15T08:00",
+      "status": "pickup scheduled"
+    }
+  ]
+}

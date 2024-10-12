@@ -1,0 +1,26 @@
+
+@media only screen and (max-width: 576px) {
+    .login-form  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1rem;
+        border: solid #f8f9fa;
+        border-width: .2rem 0 0;
+        width: 90%;
+    }
+  }
+
+@media (min-width: 576px) {
+    .login-form  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1rem;
+        border: solid #f8f9fa;
+        border-width: .2rem 0 0;
+        width: 50%;
+    }
+}
