@@ -24,3 +24,11 @@
         width: 50%;
     }
 }
+
+body{
+    background-image: url('https://www.educationonwheels.org/image-basket/poor-kids-visit-to-espalier-school-1487851389.jpg');
+      background-size: 'cover';
+      background-Position: 'center';
+      width: "100vw";
+      height: "100vh";
+}

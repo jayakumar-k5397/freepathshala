@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef,useContext } from 'react';
 import axios from 'axios';
 import emailjs from 'emailjs-com';
 import { ProjectSettings } from '../ProjectSettingsContext';
+import { useNavigate } from "react-router-dom";
 
 export default function SchedulePickup() {
   const [name, setName] = useState('');
@@ -15,6 +16,7 @@ export default function SchedulePickup() {
 
   const revGpsAdrr = useRef('');
   const settings = useContext(ProjectSettings);
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (useMyLocation) {
@@ -31,11 +33,16 @@ export default function SchedulePickup() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if(name.length < 3 || phone.length < 10 || mail.length <3 || address.length < 5 || pickupDate.length < 5) {
+      alert('Please provide correct details')
+      return;
+    }
     if(location){
-      const revGpsUrl = `https://nominatim.openstreetmap.org/reverse?lat=${location.split(',')[0]}&lon=${location.split(',')[1]}`
-       try {
+      // const revGpsUrl = `https://nominatim.openstreetmap.org/reverse?lat=${location.split(',')[0]}&lon=${location.split(',')[1]}`
+      const revGpsUrl = `https://nominatim.openstreetmap.org/reverse.php?lat=${location.split(',')[0]}&lon=${location.split(',')[1]}&format=jsonv2`
+      try {
          const response = await axios.get(revGpsUrl);
-         revGpsAdrr.current=response.data;
+         revGpsAdrr.current=response.data.address;
          console.log('your gps address '+JSON.stringify(response));
        } catch (error) {
          console.error(error);
@@ -49,7 +56,7 @@ export default function SchedulePickup() {
       "address": address,
       "location":location,
       "message":message,
-      "gpsAddress": revGpsAdrr.current,
+      "gpsAddress": JSON.stringify(revGpsAdrr.current),
       "pickupDate": pickupDate,
       "status": "pickup scheduled"
     }
@@ -61,7 +68,8 @@ export default function SchedulePickup() {
       alert('Thank you for your help. We\' get in touch with you!');
       if(mail!=='') sendEmail();
       console.log(pickUpOrder.toString());
-      console.log(response)
+      console.log(response);
+      navigate('/thankyou')
     } catch (error) {
       console.error(error);
       alert('Some issue while adding your details, please contact our support team!');
